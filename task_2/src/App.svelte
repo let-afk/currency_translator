@@ -12,6 +12,12 @@
   });
 
   function convertCurrency1ToCurrency2() {
+    if (currenciesRates == undefined) {
+      alert("currenciesRates is undefined");
+      currency1 = 0;
+      return;
+    }
+
     if (currency1 < 0) {
       currency1 = 0;
     }
@@ -22,6 +28,12 @@
   }
 
   function convertCurrency2ToCurrency1() {
+    if (currenciesRates == undefined) {
+      alert("currenciesRates is undefined");
+      currency1 = 0;
+      return;
+    }
+
     if (currency2 < 0) {
       currency2 = 0;
     }
