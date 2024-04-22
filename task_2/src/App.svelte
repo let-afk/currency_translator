@@ -30,7 +30,7 @@
   function convertCurrency2ToCurrency1() {
     if (currenciesRates == undefined) {
       alert("currenciesRates is undefined");
-      currency1 = 0;
+      currency2 = 0;
       return;
     }
 
